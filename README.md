@@ -1,9 +1,9 @@
-* https://www.codewars.com/kata/count-the-monkeys/train/javascript
+* https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheep/train/javascript
 ```javascript
-function monkeyCount(n) {
-a = [];
-for(let i = 1; i <= n; i++){
-  a.push(i);
+let countSheep = function (s){
+let a = '';
+for (i = 0; i < s; i++){
+a += (i + 1) + " sheep...";
 }
 return a;
 }
