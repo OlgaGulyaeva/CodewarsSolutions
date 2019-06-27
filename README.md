@@ -1,10 +1,10 @@
-* https://www.codewars.com/kata/if-you-cant-sleep-just-count-sheep/train/javascript
+* https://www.codewars.com/kata/capitalization-and-mutability/train/javascript
 ```javascript
-let countSheep = function (s){
-let a = '';
-for (i = 0; i < s; i++){
-a += (i + 1) + " sheep...";
-}
-return a;
+function capitalizeWord(word) {
+  let wordNew = word[0].toUpperCase();
+  for(let i = 1; i < word.length; i++){
+  wordNew += word[i];
+  }
+  return wordNew;
 }
 ```
