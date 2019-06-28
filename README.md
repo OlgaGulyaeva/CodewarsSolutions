@@ -1,10 +1,10 @@
-* https://www.codewars.com/kata/capitalization-and-mutability/train/javascript
+*https://www.codewars.com/kata/get-list-sum-recursively/train/javascript
 ```javascript
-function capitalizeWord(word) {
-  let wordNew = word[0].toUpperCase();
-  for(let i = 1; i < word.length; i++){
-  wordNew += word[i];
-  }
-  return wordNew;
+function sumR(x) {
+if (x.length === 0){
+  return 0
+} else {
+  return x.shift() + sumR(x);
+}
 }
 ```
