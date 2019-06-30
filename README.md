@@ -23,3 +23,11 @@ function whatday(num) {
    }
 
 ```
+* https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript
+```
+JavaScript
+function DNAtoRNA(dna) {
+let rna = dna.replace (/T/g, 'U')
+return rna;
+}
+```
