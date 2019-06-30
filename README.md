@@ -1,4 +1,4 @@
-*https://www.codewars.com/kata/return-the-day/train/javascript
+* https://www.codewars.com/kata/return-the-day/train/javascript
 ```
 JavaScript
 function whatday(num) { 
