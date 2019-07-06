@@ -31,3 +31,16 @@ let rna = dna.replace (/T/g, 'U')
 return rna;
 }
 ``` 
+* https://www.codewars.com/kata/do-i-get-a-bonus/train/javascript
+```
+JavaScript
+'Do I get a bonus?'
+function bonusTime(salary, bonus) {
+str = '';
+  if(bonus){
+    return str = '£' + salary * 10
+  } else{
+    return '£' + salary;
+  }
+}
+```
