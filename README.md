@@ -31,3 +31,60 @@ let rna = dna.replace (/T/g, 'U')
 return rna;
 }
 ```
+* https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript
+```
+JavaScript
+function createArray(number){
+     var newArray = [];
+     
+     for(var counter = 1; counter <= number; counter++){
+       newArray.push(counter);
+     }
+     
+     return newArray;
+   }
+```
+* https://www.codewars.com/kata/string-average/train/python
+``` 
+JavaScript
+function averageString(str) {
+if (!str) return "n/a";
+  let obj = {
+  'zero': 0,
+  'one': 1,
+  'two': 2,
+  'three': 3,
+  'four': 4,
+  'five': 5,
+  'six': 6,
+  'seven': 7,
+  'eight': 8,
+  'nine': 9,
+  };
+  let obj2 = {
+  0: 'zero',
+  1: 'one',
+  2: 'two',
+  3: 'three',
+  4: 'four',
+  5: 'five',
+  6: 'six',
+  7: 'seven',
+  8: 'eight',
+  9: 'nine',
+  };
+  
+  const arr = str.split(' ');
+  let sum = 0;
+  for(let i = 0; i < arr.length; i++){
+    if(obj[arr[i]] !== undefined){
+      sum += obj[arr[i]]; 
+    } else {
+      return 'n/a'
+      }
+  }
+  const avg = Math.floor(sum / arr.length)
+  
+  return obj2[avg];
+}
+```
