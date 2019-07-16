@@ -30,6 +30,8 @@ function DNAtoRNA(dna) {
 let rna = dna.replace (/T/g, 'U')
 return rna;
 }
+``` 
+* https://www.codewars.com/kata/do-i-get-a-bonus/train/javascript
 ```
 * https://www.codewars.com/kata/unfinished-loop-bug-fixing-number-1/train/javascript
 ```
@@ -44,7 +46,9 @@ function createArray(number){
      return newArray;
    }
 ```
+
 * https://www.codewars.com/kata/string-average/train/python
+
 ``` 
 JavaScript
 function averageString(str) {
@@ -86,5 +90,20 @@ if (!str) return "n/a";
   const avg = Math.floor(sum / arr.length)
   
   return obj2[avg];
+}
+```
+
+* https://www.codewars.com/kata/do-i-get-a-bonus/train/javascript
+
+```
+JavaScript
+'Do I get a bonus?'
+function bonusTime(salary, bonus) {
+str = '';
+  if(bonus){
+    return str = '£' + salary * 10
+  } else{
+    return '£' + salary;
+  }
 }
 ```
