@@ -136,3 +136,21 @@ const l = names.length;
 }
 https://www.codewars.com/kata/who-likes-it/train/javascript
 ```
+
+```
+how much tax?
+function howMuchTax(salary) {
+  let tax20 = (45000 - 11500) * 20 / 100;
+  let tax20sal = (salary - 11500) * 20 / 100;
+  let tax40 = (150000 - 45000) * 40 / 100;
+  let tax40sal = (salary - 45000) * 40 / 100;
+  let tax45 = (salary - 150000) * 45 / 100;
+
+  if (salary <= 11500) return 'You should pay no tax';
+  if (salary > 11500 && salary <= 45000) return 'You should pay ' + '£' + (tax20sal) + ' in tax';
+  if (salary > 45000 && salary <= 150000) return 'You should pay ' + '£' + (tax20 + tax40sal) + ' in tax';
+  if (salary > 150000) return 'You should pay ' + '£' + (tax20 + tax40 + tax45) + ' in tax';
+
+}
+https://www.codewars.com/kata/how-much-tax/train/javascript
+```
