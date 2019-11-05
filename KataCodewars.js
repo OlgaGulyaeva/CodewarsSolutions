@@ -187,3 +187,22 @@ function isPalindrome(line) {
 }
 https://www.codewars.com/kata/57a5015d72292ddeb8000b31
 ```
+```
+BetaTesting Palindromes
+
+function palindrome(str) {
+let strlow = str.toLowerCase();
+let len = strlow.length;
+let mid = Math.floor(len / 2);
+
+if (len < 2) return true;
+
+for (let i = 0; i < mid; i++) {
+if (strlow [i] !== strlow [len - 1 - i]) {
+return false;
+}
+return true;
+}
+}
+https://www.codewars.com/users/OlyaG/completed_solutions
+````
