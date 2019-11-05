@@ -154,3 +154,16 @@ function howMuchTax(salary) {
 }
 https://www.codewars.com/kata/how-much-tax/train/javascript
 ```
+```
+7 kyu
+Thinkful - Number Drills: Congo warehouses
+JavaScript:
+function boxCapacity(length, width, height) {
+let l = Math.floor((length * 12)/16);
+let w = Math.floor((width * 12) / 16);
+let h = Math.floor((height * 12) / 16);
+let res = l * w * h;
+  return res;
+  https://www.codewars.com/kata/thinkful-number-drills-congo-warehouses/train/javascript
+}
+```
