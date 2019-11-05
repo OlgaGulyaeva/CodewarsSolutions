@@ -167,3 +167,23 @@ let res = l * w * h;
   https://www.codewars.com/kata/thinkful-number-drills-congo-warehouses/train/javascript
 }
 ```
+```
+8 kyu
+Palindrome Strings
+JavaScript:
+
+function isPalindrome(line) {
+    let linestr = line.toString();
+    let len = linestr.length;
+    let mid = Math.floor(len/2);
+    if (len < 2) return true;
+
+    for ( let i = 0; i < mid; i++ ) {
+        if (linestr[i] !== linestr[len - 1 - i]) {
+            return false;
+        }
+         return true;
+    }
+}
+https://www.codewars.com/kata/57a5015d72292ddeb8000b31
+```
