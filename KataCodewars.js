@@ -218,3 +218,19 @@ function howMuchWater(water, load, clothes){
 }
 https://www.codewars.com/kata/575fa9afee048b293e000287
 ```
+```
+Beta  Palindrome
+function isPalindrome(s) {
+  let str = s.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").replace(/\s/g, "");
+  let len = str.length;
+  let mid = Math.floor(len/2);
+  if (len < 2) return true;
+  for (let i =0; i < mid; i++ ){
+    if (str[i] !== str[len - 1 - i]) {
+      return false;
+    }
+    return true;
+  }
+
+}
+```
