@@ -263,3 +263,20 @@ let sum = 0;
     return sum;
 }
 ```
+```
+Palindrome checker
+function isPalindrome(str) {
+if (str === null) return false;
+  let pal = str.toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "").replace(/\s/g, "");
+  let ln = pal.length;
+  let mid = ln / 2;
+
+  for (let i = 0; i < mid; i++) {
+    if (pal[i] !== pal[ln - 1 - i]) {
+      return false;
+    }
+    return true;
+  }
+}
+https://www.codewars.com/kata/palindrome-checker/train/javascript
+```
