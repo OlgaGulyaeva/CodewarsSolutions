@@ -280,3 +280,25 @@ if (str === null) return false;
 }
 https://www.codewars.com/kata/palindrome-checker/train/javascript
 ```
+```
+8 kyu
+Well of Ideas - Easy Version
+JavaScript:
+function well(x){
+let res = 0;
+for (let i =0; i < x.length; i++){
+  if (x[i] === 'good'){
+    res++;
+  }
+}
+if (res > 0 && res < 3) {
+  return 'Publish!'
+} else if (res > 2) {
+  return 'I smell a series!'
+} else {
+  return 'Fail!'
+}
+
+}
+https://www.codewars.com/kata/57f222ce69e09c3630000212
+```
