@@ -302,3 +302,18 @@ if (res > 0 && res < 3) {
 }
 https://www.codewars.com/kata/57f222ce69e09c3630000212
 ```
+
+```
+8 kyu
+Well of Ideas - Easy Version
+JavaScript:
+
+function well(x){
+let arr = x.filter(i => i === 'good').length;
+if (arr == 0) return 'Fail!';
+if (arr > 0 && arr <= 2) return 'Publish!';
+if (arr > 2) return 'I smell a series!';
+
+}
+https://www.codewars.com/kata/57f222ce69e09c3630000212
+```
