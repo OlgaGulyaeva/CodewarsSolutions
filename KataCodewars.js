@@ -353,3 +353,14 @@ else {
 }
 }
 ```
+
+```
+8 kyu
+Holiday VIII - Duty Free
+JavaScript:
+function dutyFree(normPrice, discount, hol){
+  let disPrice = hol / ((normPrice * discount)/100);
+  return res = Math.floor(disPrice);
+
+}
+```
