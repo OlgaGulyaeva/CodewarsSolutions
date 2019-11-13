@@ -317,3 +317,23 @@ if (arr > 2) return 'I smell a series!';
 }
 https://www.codewars.com/kata/57f222ce69e09c3630000212
 ```
+
+```
+7 kyu
+Well of Ideas - Harder Version
+JavaScript:
+function well(x){
+let str = x.join(',').toLowerCase().split(',');
+let res = 0;
+for (let i = 0; i < str.length; i++){
+  if (str[i] === 'good'){
+    res++;
+    }
+  }
+
+if (res == 0) return 'Fail!';
+if (res > 0 && res <= 2) return 'Publish!';
+if (res > 2) return 'I smell a series!';
+
+}
+```
