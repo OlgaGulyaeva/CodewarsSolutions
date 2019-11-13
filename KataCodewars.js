@@ -337,3 +337,19 @@ if (res > 2) return 'I smell a series!';
 
 }
 ```
+
+```
+
+7 kyu
+Holiday X - Bintang Vests
+JavaScript:
+function vestBuy(price, haggle){
+if (haggle == 'light') return price * 0.8;
+if (haggle == 'medium') return price * 0.7;
+if (haggle == 'heavy') return price * 0.6;
+if (haggle == 'walkandswear') return price * 0.1;
+else {
+  return 'Run!!'
+}
+}
+```
