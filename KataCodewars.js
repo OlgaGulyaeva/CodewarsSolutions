@@ -364,3 +364,19 @@ function dutyFree(normPrice, discount, hol){
 
 }
 ```
+
+```
+Cat and Mouse - Easy Version
+JavaScript:
+function catMouse(x){
+let sum = 0;
+for (let i = 0; i < x.length; i++){
+  sum += x[i].includes('.')
+}
+if (sum < 4) return "Caught!"
+else {
+return "Escaped!"
+}
+
+}
+```
