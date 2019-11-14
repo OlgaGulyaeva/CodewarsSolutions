@@ -380,3 +380,14 @@ return "Escaped!"
 
 }
 ```
+
+```
+8 kyu
+Third Angle of a Triangle
+
+function otherAngle(a, b) {
+let sum = 180;
+let c = sum - a - b;
+  return c;
+}
+```
