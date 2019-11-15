@@ -421,3 +421,13 @@ if (bmi > 30.0) return "Obese";
 
 }
 ```
+
+```
+8 kyu
+Be Concise I - The Ternary Operator
+JavaScript:
+
+let a = "You're a(n)";
+let describeAge = (age) => age <= 12 ? a +" kid": age >= 13 && age <= 17 ? a +" teenager": age >= 18 && age <= 64 ? a +" adult": a +" elderly";
+
+```
