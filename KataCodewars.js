@@ -391,3 +391,18 @@ let c = sum - a - b;
   return c;
 }
 ```
+
+```
+
+8 kyu
+I love you, a little , a lot, passionately ... not at all
+
+JavaScript:
+function howMuchILoveYou(nbPetals) {
+  const arr = ["I love you", "a little", "a lot", "passionately", "madly", "not at all"];
+    let index = (nbPetals - 1) % arr.length;
+  console.log(index);
+    return arr[index];
+}
+
+```
