@@ -431,3 +431,11 @@ let a = "You're a(n)";
 let describeAge = (age) => age <= 12 ? a +" kid": age >= 13 && age <= 17 ? a +" teenager": age >= 18 && age <= 64 ? a +" adult": a +" elderly";
 
 ```
+```
+8 kyu  Sort and Star
+function twoSort(s) {
+  let strSort = s.sort();
+  return strSort[0].split('').join('***');
+
+}
+```
