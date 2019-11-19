@@ -439,3 +439,17 @@ function twoSort(s) {
 
 }
 ```
+```
+8 kyu
+Sum of Multiples
+JavaScript:
+function sumMul(n,m){
+let sum = 0;
+if (n >= m) return "INVALID";
+for (let i = n; i < m; i++) {
+ if (i % n === 0) sum += i;
+}
+return sum;
+
+}
+```
