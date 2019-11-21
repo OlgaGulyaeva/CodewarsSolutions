@@ -481,3 +481,18 @@ return arr1 = arr.slice(0, n);
 
 }
 ```
+```
+8 kyu 2d version
+Enumerable Magic #25 - Take the First N Elements
+JavaScript:
+
+function take(arr, n) {
+let arr1 =[];
+
+for(let i =0; i < arr.length; i++){
+ if (i < n) arr1.push(arr[i]);
+}
+return arr1;
+
+}
+```
