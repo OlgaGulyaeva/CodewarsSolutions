@@ -469,3 +469,15 @@ function howManyDalmatians(number) {
 
 }
 ```
+```
+8 kyu
+Enumerable Magic #25 - Take the First N Elements
+JavaScript:
+
+function take(arr, n) {
+let arr1 =[];
+return arr1 = arr.slice(0, n);
+
+
+}
+```
