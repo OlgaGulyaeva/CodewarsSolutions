@@ -535,3 +535,13 @@ function greet (name, owner) {
   else return 'Hello guest'
 }
 ```
+```
+8 kyu
+Grasshopper - Check for factor
+JavaScript:
+
+function checkForFactor (base, factor) {
+  if ((base % factor) == 0) return true;
+  else return false;
+}
+```
