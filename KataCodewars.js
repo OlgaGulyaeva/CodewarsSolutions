@@ -507,3 +507,13 @@ return coefficient / (exponent + 1) + "x^" + (exponent + 1);
 
 }
 ```
+
+```
+8 kyu
+5 without numbers !!
+JavaScript:
+function unusualFive() {
+ let x = "ilove";
+  return x.length;
+}
+```
