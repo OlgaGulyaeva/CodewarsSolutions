@@ -545,3 +545,12 @@ function checkForFactor (base, factor) {
   else return false;
 }
 ```
+```
+8 kyu
+Grasshopper - Terminal game move function
+JavaScript:
+
+function move (position, roll) {
+  return position + (roll*2);
+}
+```
