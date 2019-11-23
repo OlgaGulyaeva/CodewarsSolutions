@@ -517,3 +517,11 @@ function unusualFive() {
   return x.length;
 }
 ```
+```
+8 kyu
+Keep Hydrated!
+JavaScript:
+function litres(time) {
+  return Math.floor(time * 0.5);
+}
+```
