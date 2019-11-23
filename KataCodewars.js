@@ -525,3 +525,13 @@ function litres(time) {
   return Math.floor(time * 0.5);
 }
 ```
+```
+8 kyu
+Grasshopper - Personalized Message
+JavaScript:
+
+function greet (name, owner) {
+  if (name == owner) return "Hello boss";
+  else return 'Hello guest'
+}
+```
