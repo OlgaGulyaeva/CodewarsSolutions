@@ -554,3 +554,17 @@ function move (position, roll) {
   return position + (roll*2);
 }
 ```
+```
+8 kyu
+Find numbers which are divisible by given number
+JavaScript:
+
+function divisibleBy(numbers, divisor){
+const arr =[];
+for (let i = 0; i <= numbers.length; i++){
+  if ((numbers[i] % divisor) == 0)
+ arr.push(numbers[i]);
+}
+return arr;
+}
+```
