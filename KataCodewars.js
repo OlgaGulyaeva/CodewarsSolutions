@@ -568,3 +568,18 @@ for (let i = 0; i <= numbers.length; i++){
 return arr;
 }
 ```
+
+```
+8 kyu
+Is it a palindrome?
+JavaScript:
+
+function isPalindrome(x) {
+
+let str = x.toUpperCase();
+let rev = str.split('').reverse().join('');
+if (str === rev) return true;
+else return false;
+
+}
+```
