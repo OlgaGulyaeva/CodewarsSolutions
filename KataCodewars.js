@@ -617,3 +617,18 @@ function hoopCount (n) {
 }
 https://www.codewars.com/kata/55cb632c1a5d7b3ad0000145
 ```
+```
+8 kyu
+Sum Arrays
+JavaScript:
+
+function sum (numbers) {
+    if (numbers == 0) return 0;
+   let sum = 0;
+   for (let i =0; i < numbers.length; i++){
+    sum += numbers[i];
+   }
+   return sum;
+
+};
+```
