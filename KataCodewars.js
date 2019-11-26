@@ -606,3 +606,14 @@ if ((x * x) > 1000) return "It's hotter than the sun!!";
 else return 'Help yourself to a honeycomb Yorkie for the glovebox.'
 
 ```
+```
+8 kyu
+Keep up the hoop
+JavaScript:
+
+function hoopCount (n) {
+   if (n >= 10) return "Great, now move on to tricks";
+   else return "Keep at it until you get it";
+}
+https://www.codewars.com/kata/55cb632c1a5d7b3ad0000145
+```
