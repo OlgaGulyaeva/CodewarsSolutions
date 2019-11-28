@@ -632,3 +632,19 @@ function sum (numbers) {
 
 };
 ```
+```
+write a function which takes a string and return a string with 2 last letter
+
+function inverted(word){
+
+  let str = '';
+  for (let i = word.length-1; i >= 0; i--){
+    if (str.length < 2){
+      str += word[i] ;
+    }
+  }
+  return str;
+}
+console.log(inverted("OLGA"));
+
+```
