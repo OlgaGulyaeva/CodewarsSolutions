@@ -648,3 +648,17 @@ function inverted(word){
 console.log(inverted("OLGA"));
 
 ```
+```
+write a function which takes numbers in array and return a new array with index of value only  2
+
+function indexOfnumber (a)  {
+let arr = [];
+for( let i = 0; i < a.length; i++){
+  if (a[i] === 2)
+   arr.push(i);
+
+  }
+  return arr;
+}
+console.log(indexOfarr ([1, 2, 3, 2, 4, 2, 8, 9, 2]));
+```
