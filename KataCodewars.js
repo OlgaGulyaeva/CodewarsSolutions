@@ -662,3 +662,17 @@ for( let i = 0; i < a.length; i++){
 }
 console.log(indexOfarr ([1, 2, 3, 2, 4, 2, 8, 9, 2]));
 ```
+```
+7 kyu
+Love vs friendship
+JavaScript:
+
+function wordsToMarks(string){
+let sum = 0;
+  for (let i = 0; i < string.length; i++){
+    sum += string.charCodeAt(i);
+  }
+  sum -= string.length * 96;
+  return sum;
+}
+```
