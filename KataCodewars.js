@@ -730,3 +730,16 @@ function nthEven(n){
   return n = (n-1) * 2;
 }
 ```
+
+```
+8 kyu
+Count by X
+JavaScript:
+
+function countBy(x, n) {
+  var arr = [];
+for(let i = 1; i <= n; i++)
+arr.push(i*x)
+  return arr;
+}
+```
