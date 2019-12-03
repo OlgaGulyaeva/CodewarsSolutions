@@ -690,3 +690,23 @@ if (employed == true && vacation == false) return true;
 else return false;
 }
 ```
+
+```
+
+Unfinished
+Obsolete
+8 kyu
+L1: Bartender, drinks!
+JavaScript:
+
+function getDrinkByProfession(param){
+let paramLowCase = param.toLowerCase();
+if (paramLowCase == 'jabroni') return 'Patron Tequila';
+else if (paramLowCase == "school counselor") return 'Anything with Alcohol';
+else if (paramLowCase == "programmer") return 'Hipster Craft Beer';
+else if (paramLowCase == "bike gang member") return 'Moonshine';
+else if (paramLowCase == "politician") return 'Your tax dollars';
+else if (paramLowCase == "rapper") return 'Cristal';
+else return 'Beer';
+}
+```
